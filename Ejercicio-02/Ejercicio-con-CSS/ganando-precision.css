@@ -1,0 +1,11 @@
+html {
+  margin: 10pt;
+}
+
+#elemento-1 {
+  color: red;
+}
+
+*.primero {
+  font-size: 2rem;
+}
