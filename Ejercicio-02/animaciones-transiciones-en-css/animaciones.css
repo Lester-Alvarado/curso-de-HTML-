@@ -1,0 +1,27 @@
+body {
+  border: none;
+  padding: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.btn-modern {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  padding: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  background-color: darkgreen;
+  color: white;
+  animation: traslado 0.4s;
+}
+
+.btn-modern:hover {
+  background-color: chartreuse;
+  color: rgb(22, 22, 22);
+  transform: translateY(-5px);
+  box-shadow: 5px rgb(22, 22, 22);
+}
